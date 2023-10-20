@@ -28,7 +28,7 @@ jobs:
         run: terraform validate
 
       - name: Terraform Format
-        run: terraform test
+        run: terraform fmt
 
       - name: Terraform Test
         run: terraform test
